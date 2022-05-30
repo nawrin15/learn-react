@@ -1,4 +1,8 @@
 import './App.css';
+import ClassCounterOne from './components/useEffect/ClassCounterOne';
+import ClassCounterOne_2 from './components/useEffect/ClassCounterOne_2';
+import HookCounterOne from './components/useEffect/HookCounterOne';
+import HookCounterOne_2 from './components/useEffect/HookCounterOne_2';
 import ClassCounter from './components/useState/ClassCounter';
 import ClassCounterTwo from './components/useState/ClassCounterTwo';
 import HookCounter from './components/useState/HookCounter';
@@ -14,7 +18,11 @@ function App() {
         {/* <HookCounterTwo/> */}
         {/* <ClassCounterTwo /> */}
         {/* <HookCounterThree /> */}
-        <HookCounterFour/>
+        {/* <HookCounterFour/> */}
+        {/* <ClassCounterOne /> */}
+        {/* <HookCounterOne/> */}
+        {/* <ClassCounterOne_2 /> */}
+        <HookCounterOne_2/>
     </div>
   );
 }
