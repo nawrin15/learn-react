@@ -1,8 +1,11 @@
 import './App.css';
 import ClassCounterOne from './components/useEffect/ClassCounterOne';
 import ClassCounterOne_2 from './components/useEffect/ClassCounterOne_2';
+import ClassMouse from './components/useEffect/ClassMouse';
 import HookCounterOne from './components/useEffect/HookCounterOne';
 import HookCounterOne_2 from './components/useEffect/HookCounterOne_2';
+import HookMouse from './components/useEffect/HookMouse';
+import MouseContainer from './components/useEffect/MouseContainer';
 import ClassCounter from './components/useState/ClassCounter';
 import ClassCounterTwo from './components/useState/ClassCounterTwo';
 import HookCounter from './components/useState/HookCounter';
@@ -22,7 +25,10 @@ function App() {
         {/* <ClassCounterOne /> */}
         {/* <HookCounterOne/> */}
         {/* <ClassCounterOne_2 /> */}
-        <HookCounterOne_2/>
+        {/* <HookCounterOne_2/> */}
+        {/* <ClassMouse/> */}
+        {/* <HookMouse/> */}
+        <MouseContainer/>
     </div>
   );
 }
