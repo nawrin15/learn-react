@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../sentiment-analysis-web-app"
+		},
+		{
+			"path": "../../../docker-nginx-demo"
+		},
+		{
+			"path": "../../../code"
+		},
+		{
+			"path": "../../../AMS"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}

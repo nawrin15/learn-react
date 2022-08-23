@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  sentimentanalysisdb:
+      image: mongo:latest
+      restart: always
+      environment:
+        - MONGO_INITDB_DATABASE=$SENTIMENTANALYSIS_DB_NAME
+        - MONGO_INITDB_ROOT_USERNAME=$SENTIMENTANALYSIS_DB_USER
+        - MONGO_INITDB_ROOT_PASSWORD=$SENTIMENTANALYSIS_DB_PASSWORD
+        - MONGO_INITDB_PORT=$SENTIMENTANALYSIS_DB_PORT
+      network_mode: "bridge"
+      ports:
+        - "27012:27017"

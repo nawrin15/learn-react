@@ -14,6 +14,7 @@ import HookCounterThree from './components/useState/HookCounterThree';
 import HookCounterTwo from './components/useState/HookCounterTwo';
 
 function App() {
+  console.log(process.env)
   return (
     <div className="App">
         {/* <ClassCounter /> */}
