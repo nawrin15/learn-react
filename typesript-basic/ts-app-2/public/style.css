@@ -1,0 +1,9 @@
+* {
+    background-color: aquamarine;
+}
+div {
+    margin: 0.5rem 0;
+}
+input[type="email"] {
+    width: 10rem;
+}
