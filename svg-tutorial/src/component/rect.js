@@ -1,6 +1,11 @@
 function Rect() {
     return (
-      <svg >
+      <>
+      <svg width="350" height="350">
+        <rect x="100" y="100" width="200" height="200" fill="#0f7" stroke="#f0f" strokeWidth="4" rx="100" ry="100"/>
+        <rect x="10" y="10" width="200" height="200" fill="#0f0" stroke="#00f" strokeWidth="4" rx="100" ry="200"/>
+        </svg>
+        <svg width="350" height="350">
        <rect 
             x="10" 
             y="10" 
@@ -31,6 +36,7 @@ function Rect() {
             }}
         />
       </svg>
+      </>
      
     );
   }
